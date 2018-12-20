@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.show {
+    width: 402px;
+    height: 202px;
+    border: 1px solid #ccc;
+    margin: 100px auto;
+}
+
+.show>li {
+    list-style: none;
+    float: left;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+}
+
+.show>li>img {
+    width: 50px;
+    position: absolute;
+    left: 25px;
+    top: 30px;
+}
+
+.show>li>span {
+    width: 30px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 10px;
+    display: block;
+    position: absolute;
+    left: 35px;
+    top: 54px;
+}

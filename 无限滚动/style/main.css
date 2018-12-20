@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    width: 600px;
+    height: 300px;
+    margin: 100px auto;
+    border: 1px solid #ccc;
+    overflow: hidden;
+}
+
+.content>ul {
+    list-style: none;
+    width: 1800px;
+    height: 100%;
+    background-color: #000;
+}
+
+.content>ul>li {
+    float: left;
+}
+
+img {
+    width: 300px;
+}

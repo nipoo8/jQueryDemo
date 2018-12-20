@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cont {
+    width: 402px;
+    height: 452px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    margin: 50px auto;
+}
+
+.head>li {
+    list-style: none;
+    width: 100px;
+    height: 50px;
+    background-color: antiquewhite;
+    float: left;
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.head>.show_1 {
+    background-color: skyblue;
+}
+
+.content>li {
+    list-style: none;
+    display: none;
+}
+
+.content>.show_2 {
+    display: block;
+}
+
+.content>li>img {
+    width: 400px;
+}

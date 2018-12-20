@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="../jquery.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .box {
+            width: 300px;
+            height: 450px;
+            margin: 50px auto;
+            border: 1px solid #000;
+        }
+        
+        .box>h1 {
+            font-size: 20px;
+            line-height: 35px;
+            color: deeppink;
+            padding-left: 10px;
+        }
+        
+        ul>li {
+            list-style: none;
+            padding: 5px 10px;
+            border: 1px dashed #ccc;
+        }
+        
+        ul>li:nth-child(-n+3) span {
+            background-color: deeppink;
+        }
+        
+        ul>li>span {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            text-align: center;
+            line-height: 20px;
+            background-color: #ccc;
+            margin-right: 10px;
+        }
+        
+        .content {
+            overflow: hidden;
+            margin-top: 5px;
+            display: none;
+        }
+        
+        .content>img {
+            width: 80px;
+            height: 120px;
+            float: left;
+        }
+        
+        .content>p {
+            width: 180px;
+            height: 120px;
+            float: right;
+        }
+        
+        .current .content {
+            display: block;
+        }
+    </style>
+    <script>
+        $(function() {
+            $("li").hover(function() {
+                $(this).addClass("current");
+            }, function() {
+                $(this).removeClass("current");
+            });
+        });
+    </script>
+    <title>移入移出练习</title>
+</head>
+
+<body>
+    <div class="box">
+        <h1>电影排行榜</h1>
+        <ul>
+            <li><span>1</span>电影名称
+                <div class="content">
+                    <img src="https://gss2.bdstatic.com/9fo3dSag_xI4khGkpoWK1HF6hhy/baike/whfpf%3D180%2C140%2C50/sign=f7261e339b0a304e5277f3bab7f596be/30adcbef76094b36a69671daafcc7cd98d109d84.jpg" alt="">
+                    <p>《战狼》是由吴京执导的现代军事战争片，该片由吴京、余男、倪大红、斯科特·阿金斯 、周晓鸥等主演。该影片属于国内首部3D动作战争电影，历时七年全力打造，《战狼》真实呈现了一场中外边境战争，也让堪称“东方之狼”的特种兵战队及高能战士首次登陆大银幕。讲述的是小人物成长为拯救国家和民族命运的孤胆英雄的传奇故事。该影片于2015年4月2日全国上映。</p>
+                </div>
+            </li>
+            <li><span>2</span>电影名称
+                <div class="content">
+                    <img src="https://gss2.bdstatic.com/9fo3dSag_xI4khGkpoWK1HF6hhy/baike/whfpf%3D180%2C140%2C50/sign=f7261e339b0a304e5277f3bab7f596be/30adcbef76094b36a69671daafcc7cd98d109d84.jpg" alt="">
+                    <p>《战狼》是由吴京执导的现代军事战争片，该片由吴京、余男、倪大红、斯科特·阿金斯 、周晓鸥等主演。该影片属于国内首部3D动作战争电影，历时七年全力打造，《战狼》真实呈现了一场中外边境战争，也让堪称“东方之狼”的特种兵战队及高能战士首次登陆大银幕。讲述的是小人物成长为拯救国家和民族命运的孤胆英雄的传奇故事。该影片于2015年4月2日全国上映。</p>
+                </div>
+            </li>
+            <li><span>3</span>电影名称
+                <div class="content">
+                    <img src="https://gss2.bdstatic.com/9fo3dSag_xI4khGkpoWK1HF6hhy/baike/whfpf%3D180%2C140%2C50/sign=f7261e339b0a304e5277f3bab7f596be/30adcbef76094b36a69671daafcc7cd98d109d84.jpg" alt="">
+                    <p>《战狼》是由吴京执导的现代军事战争片，该片由吴京、余男、倪大红、斯科特·阿金斯 、周晓鸥等主演。该影片属于国内首部3D动作战争电影，历时七年全力打造，《战狼》真实呈现了一场中外边境战争，也让堪称“东方之狼”的特种兵战队及高能战士首次登陆大银幕。讲述的是小人物成长为拯救国家和民族命运的孤胆英雄的传奇故事。该影片于2015年4月2日全国上映。</p>
+                </div>
+            </li>
+            <li><span>4</span>电影名称
+                <div class="content">
+                    <img src="https://gss2.bdstatic.com/9fo3dSag_xI4khGkpoWK1HF6hhy/baike/whfpf%3D180%2C140%2C50/sign=f7261e339b0a304e5277f3bab7f596be/30adcbef76094b36a69671daafcc7cd98d109d84.jpg" alt="">
+                    <p>《战狼》是由吴京执导的现代军事战争片，该片由吴京、余男、倪大红、斯科特·阿金斯 、周晓鸥等主演。该影片属于国内首部3D动作战争电影，历时七年全力打造，《战狼》真实呈现了一场中外边境战争，也让堪称“东方之狼”的特种兵战队及高能战士首次登陆大银幕。讲述的是小人物成长为拯救国家和民族命运的孤胆英雄的传奇故事。该影片于2015年4月2日全国上映。</p>
+                </div>
+            </li>
+            <li><span>5</span>电影名称
+                <div class="content">
+                    <img src="https://gss2.bdstatic.com/9fo3dSag_xI4khGkpoWK1HF6hhy/baike/whfpf%3D180%2C140%2C50/sign=f7261e339b0a304e5277f3bab7f596be/30adcbef76094b36a69671daafcc7cd98d109d84.jpg" alt="">
+                    <p>《战狼》是由吴京执导的现代军事战争片，该片由吴京、余男、倪大红、斯科特·阿金斯 、周晓鸥等主演。该影片属于国内首部3D动作战争电影，历时七年全力打造，《战狼》真实呈现了一场中外边境战争，也让堪称“东方之狼”的特种兵战队及高能战士首次登陆大银幕。讲述的是小人物成长为拯救国家和民族命运的孤胆英雄的传奇故事。该影片于2015年4月2日全国上映。</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,37 @@
+[{
+        "name": "为你瞩目",
+        "singer": "觉醒东方",
+        "album": "让思念的味道变得立体",
+        "time": "03:20",
+        "inlk_url": "./source/为你瞩目.mp3",
+        "cover": "./source/为你瞩目.jpg",
+        "link_lrc": "./source/为你瞩目.txt"
+    },
+    {
+        "name": "梦",
+        "singer": "金玟岐",
+        "album": "梦里梦的梦 叫醒了瞳孔",
+        "time": "03:46",
+        "inlk_url": "./source/梦.mp3",
+        "cover": "./source/梦.jpg",
+        "link_lrc": "./source/梦.txt"
+    },
+    {
+        "name": "哑巴",
+        "singer": "薛之谦",
+        "album": "我们都迁就嘴巴",
+        "time": "04:21",
+        "inlk_url": "./source/哑巴.mp3",
+        "cover": "./source/哑巴.jpg",
+        "link_lrc": "./source/哑巴.txt"
+    },
+    {
+        "name": "爱不得 恨不得 舍不得",
+        "singer": "胡彦斌",
+        "album": "已经热烈这么多年",
+        "time": "04:00",
+        "inlk_url": "./source/爱不得 恨不得 舍不得.mp3",
+        "cover": "./source/爱不得 恨不得 舍不得.jpg",
+        "link_lrc": "./source/爱不得 恨不得 舍不得.txt"
+    }
+]
